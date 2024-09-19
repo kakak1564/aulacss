@@ -1,0 +1,12 @@
+body{
+    background-image:url(./lula-e-bolsonaro-6.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-size: cover;
+}
+img{
+    width: 400px;
+    height: 600px;
+    width: 700px;
+    border-radius: 200px;
+}

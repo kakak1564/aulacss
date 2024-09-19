@@ -1,0 +1,25 @@
+/*
+font-weigth
+line-height
+text-align
+text-shadow
+text-indent
+filter - Op.
+*/
+span{
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+}
+strong{
+    font-weight: 100;
+}
+p{
+    text-indent: 50px;
+    line-height: 250%   ;
+}
+article{
+    font-style: italic;
+    color: orange;
+    text-align: right;
+}

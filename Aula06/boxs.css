@@ -1,0 +1,20 @@
+div{
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+#box1{
+    padding: 10px;
+    border: cornflowerblue;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: border-box;
+}
+#box2{
+    padding: 10px;
+    border: red;
+    border-style: dotted;
+    border-width: 5px;
+    
+}

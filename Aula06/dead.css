@@ -1,0 +1,15 @@
+section{
+    border:solid 1px black;
+    text-align: center;
+    
+}
+p{
+    margin: 10px;
+    width: 25vw;
+}
+.primeiro{
+    float: left;
+}
+.segundo{
+    float: right;
+}

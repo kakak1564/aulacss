@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+
+}
+
+.primeiro {
+    float: left;
+    margin: 10px;
+    width: 25vw;
+padding-left: px;
+padding-top: 60px;
+}
+
+#hdois {
+    margin: 10px;
+    width: 25vw;
+    padding-left: 370px;
+padding-top: 60px;
+}
+
+.box1 {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: x-large;
+    height: 5vh;
+}
+
+.box2 {
+    background-color: bisque;
+    text-align: center;
+}
+
+.box3 {
+    background-color: bisque;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.bolo1 {
+    border: solid 10px beige;
+    border-radius: 100px;
+    
+
+}
+
+.bolo2 {
+    border: solid 10px beige;
+    border-radius: 100px;
+
+}
+
+.conf {
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.boloChocolate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricaoBolo{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
