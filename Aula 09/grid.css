@@ -1,0 +1,40 @@
+*{
+color: whitesmoke;
+}
+.container{
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkorange;
+    border: dotted 1px aqua;
+    display: grid;
+    grid-template-columns:repeat(5,20%);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "header header header header header"
+    "prop prop main main main"
+    "prop prop main main main"
+    "prop prop main main main"
+    "footer footer footer footer footer"
+    ;   
+    /* grid-template-areas: ;  separa as areas  */
+    /* grid-template-columns: ;   definie a quantidade de colunas  */
+    /* grid-template-rows:; define a quantidade de linhas */
+}
+.box1{
+    grid-area: header;
+    background-color: black;
+    text-align: center;
+}
+.box2{
+    grid-area: prop;
+    background-color: aquamarine;
+}
+.box3{
+    grid-area: main;
+    background-color: blue;
+}
+.box4{
+    grid-area: footer;
+    background-color: brown;
+}

@@ -1,0 +1,13 @@
+@media(orientation:landscape){
+    img{
+        display:flex ;
+        margin: auto;
+    }
+    p{
+        display: none;
+    }
+    h1{
+        color: blue;
+    }
+}
+

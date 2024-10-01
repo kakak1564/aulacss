@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    border: solid 1px ;
+    margin: 25px auto;
+    width: 800px;
+    height: 800px;
+    background-color: silver;
+    display: flex;        /* Muda o layout do Display*/
+    /* justify-content: end; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* align-items:end; */
+flex-flow: row wrap;
+justify-content: ;
+    /*muda o comportamento do container*/
+    /*flex-direction:row ;    
+    flex-direction: row-reverse;  fica ao contrario a ordem
+    flex-direction:column ;
+    flex-direction: row-reverse;
+    flex-direction:column-reverse ; */
+    /*direction: ltr; /* Muda o lado da escrita  esquerda
+     direction: rtl;  Muda o lado da escrita  direita*/
+
+     /*Faz a quebra de elementos na linha ou coluna 
+     flex-wrap: nowrap;
+     (flex-dorection define comportamento)*/
+         
+}
+.box1{
+    border: solid 1px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: ; */
+    /* flex-basis:; */
+}
+.box2{
+    border: solid 1px;
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /* order: 2; */
+    /* flex-grow: 2; */
+    /* flex-shrink: ; */
+    /* flex-basis:; */
+}
+.box3{
+    border: solid 1px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: ; */
+    /* flex-basis:; */
+}
